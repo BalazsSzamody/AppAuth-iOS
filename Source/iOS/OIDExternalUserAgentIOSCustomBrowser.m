@@ -15,7 +15,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
  */
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS || TARGET_OS_MACCATALYST
 #import "OIDExternalUserAgentIOSCustomBrowser.h"
 
 #import <UIKit/UIKit.h>

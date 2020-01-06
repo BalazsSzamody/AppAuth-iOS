@@ -15,7 +15,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
  */
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IOS || TARGET_OS_MACCATALYST
 #import "OIDAuthState+IOS.h"
 #import "OIDExternalUserAgentIOS.h"
 #import "OIDExternalUserAgentCatalyst.h"
